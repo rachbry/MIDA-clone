@@ -4,11 +4,26 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bolder;
+}
 
+/* -----------------GENERAL STYLES--------------------- */
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* -----------------Main Content--------------------- */
 .top-container {
     background: url("../images/midahands.jpeg") no-repeat center center/cover;
-    background-color: aqua;
     height: 100vh;
+}
+
+.we-are {
+    padding: 20px 25%;
+    font-weight: bold;
 }
