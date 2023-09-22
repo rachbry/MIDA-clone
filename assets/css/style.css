@@ -5,6 +5,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    background-color: blueviolet;
 }
 
 h1 {
@@ -17,10 +18,47 @@ h1 {
     text-transform: uppercase;
 }
 
+/* -----------------Nav Bar--------------------- */
+.nav{
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);  /* Set the transparency to 0.3 */
+    overflow: hidden;
+    
+  }
+
+
 /* -----------------Main Content--------------------- */
 .top-container {
-    background: url("../images/midahands.jpeg") no-repeat center center/cover;
+    background: url("../images/midahands.jpeg") no-repeat top center/cover;
     height: 100vh;
+    position: relative;
+    top: 0;
+    
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    padding-left: 5px;
+}
+
+#logo {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+
+}
+
+.logo a:hover {
+    text-decoration: none;
+    color: black;
+  
 }
 
 .we-are {
