@@ -17,10 +17,11 @@
     <header>
         <!-- put my nav in here -->
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#my-nav-bar"
+                aria-controls="my-nav-bar" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="my-nav-bar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -47,7 +48,7 @@
                           </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Catering
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Events
                         </a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Mida Southend Events</a>
