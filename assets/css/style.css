@@ -12,6 +12,10 @@ h1 {
     font-weight: bolder;
 }
 
+p {
+    color: black;
+}
+
 /* -----------------GENERAL STYLES--------------------- */
 .uppercase {
     text-transform: uppercase;
@@ -65,6 +69,12 @@ h1 {
     font-weight: bold;
 }
 
+.we-are p{
+    font-weight: bold;
+    color: black;
+}
+
+
 .we-are h1 {
     padding-bottom: 20px;
 }
@@ -75,12 +85,20 @@ h1 {
 
 .douglass {
     background: url("../images/douglass.jpeg" ) center center/cover;
+    clip: rect(20px, 50px, 50px, 50px);
     height: 700px;
     overflow: hidden;
-    position: relative;
-}
+    /* position: relative; */
+    /* object-position: 80% 80%;
+    .image-container img {
+        clip: rect(top, right, bottom, left); */
+        /* Replace top, right, bottom, and left with the values you want */
+        }
 
-.douglass h1, p {
+
+
+.douglass h1, 
+.douglass p {
     color: white;
     margin-left: 25%;
     margin-right: 25%;
@@ -94,6 +112,48 @@ h1 {
 .douglass p {
 }
 
-.food-pic {
-    width: 100%;
+/* -------------Food Pics-------------------- */
+/* .pic-container {
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
 }
+
+.food-pic {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+} */
+
+.pic-container {
+
+}
+
+.food-pic {
+    /* max-height: 700px;
+    width: 100%;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-auto-rows: 250px;
+grid-auto-flow: dense;   */
+
+
+
+
+padding: 0;
+max-width: 1100px;
+margin: 0 auto;
+background: #f2f2f2;
+display: grid;
+grid-gap: 0;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-auto-rows: 250px;
+grid-auto-flow: dense;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    } 
