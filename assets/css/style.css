@@ -5,7 +5,6 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    background-color: blueviolet;
 }
 
 h1 {
@@ -62,6 +61,39 @@ h1 {
 }
 
 .we-are {
-    padding: 20px 25%;
+    padding: 100px 25%;
     font-weight: bold;
+}
+
+.we-are h1 {
+    padding-bottom: 20px;
+}
+
+.family{
+    padding-top: 30px;
+}
+
+.douglass {
+    background: url("../images/douglass.jpeg" ) center center/cover;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+.douglass h1, p {
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.douglass h1 {
+    font-size: 4rem;
+    margin-top: 200px;
+}
+
+.douglass p {
+}
+
+.food-pic {
+    width: 100%;
 }
