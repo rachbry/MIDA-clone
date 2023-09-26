@@ -6,6 +6,7 @@
 body {
     height: 100%;
     margin: 0; 
+    padding: 0;
     font-family: 'Raleway', sans-serif;
     color: black;
     font-size: 1rem;
@@ -19,6 +20,11 @@ h1 {
 .uppercase {
     text-transform: uppercase;
 }
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+  }
 
 /* ----------------Top Section------------------ */
 
@@ -70,31 +76,56 @@ h1 {
 }
 /* ------------Douglass------------------- */
 .douglass {
-width: 100%;
 height: 700px;
+text-align: center;
+overflow: hidden;
+position: relative;
 }
+
+/* .fixed-focus {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1; /* Place image behind text */
+    /* } */
+
+/* .text-overlay {
+        position: relative;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+        /* color: #fff; Text color
+        z-index: 1; Place text in front of image */
+    /* } */  
 
 .douglass img {
     width: 100%;
-    
+    height: 700px;
+    object-fit: cover;
 }
 
+.douglass h1, 
 .douglass p {
-
     position: absolute;
-    transform: translate(-50%, -50%);
-
-  }
-
-/* .douglass h1, 
-.douglass p {
     color: white;
     margin-left: 25%;
     margin-right: 25%;
+    z-index: 1;
 }
 
 .douglass h1 {
     font-size: 4rem;
-    margin-top: 200px;
-} */
+    margin-top: 100px;
+    padding-top: 50px;
+}
 
+.douglass p {
+    margin-top: 400px;
+}
+
+/* -------------Food Pics-------------------- */
+
+.food-pic {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    }  
