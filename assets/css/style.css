@@ -16,12 +16,17 @@ h1 {
     font-weight: bolder;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* ----------------Top Section------------------ */
 
 .top-section {
     position: relative;
     text-align: center;
     color: black;
+    overflow: hidden;
 }
 
 .logo {
@@ -46,4 +51,50 @@ h1 {
     color: black;
 }
 
+.we-are {
+    padding: 100px 25%;
+    font-weight: bold;
+}
+
+.we-are p{
+    font-weight: bold;
+    color: black;
+}
+
+.we-are h1 {
+    padding-bottom: 20px;
+}
+
+.family{
+    padding-top: 30px;
+}
+/* ------------Douglass------------------- */
+.douglass {
+width: 100%;
+height: 700px;
+}
+
+.douglass img {
+    width: 100%;
+    
+}
+
+.douglass p {
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+  }
+
+/* .douglass h1, 
+.douglass p {
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.douglass h1 {
+    font-size: 4rem;
+    margin-top: 200px;
+} */
 
