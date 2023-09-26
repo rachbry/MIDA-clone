@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech+Mono&display=swap');
+
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Share Tech Mono', monospace; */
+
+body {
+    height: 100%;
+    margin: 0; 
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 1rem;
+}
+
+h1 {
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bolder;
+}
+
+/* ----------------Top Section------------------ */
+
+.top-section {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-left: 5px;
+  }
+
+ #logo {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: black;
+    font-weight: 900;
+ } 
+
+  .logo a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
