@@ -5,7 +5,7 @@
 
 body {
     height: 100%;
-    margin: 0; 
+    margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
     color: black;
@@ -21,18 +21,27 @@ h1 {
     text-transform: uppercase;
 }
 
-.container-fluid{
+.container-fluid {
     padding-left: 0;
     padding-right: 0;
-  }
+}
 
 /* ----------------Top Section------------------ */
 
 .top-section {
-    position: relative;
-    text-align: center;
+    /* position: relative;
+    text-align: center; */
     color: black;
     overflow: hidden;
+}
+
+.hands {
+    width: 100%;
+    height: 850px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
 }
 
 .logo {
@@ -43,16 +52,16 @@ h1 {
     position: absolute;
     transform: translate(-50%, -50%);
     padding-left: 5px;
-  }
+}
 
- #logo {
+#logo {
     font-size: 3rem;
     letter-spacing: 0.5rem;
     color: black;
     font-weight: 900;
- } 
+}
 
-  .logo a:hover {
+.logo a:hover {
     text-decoration: none;
     color: black;
 }
@@ -62,7 +71,7 @@ h1 {
     font-weight: bold;
 }
 
-.we-are p{
+.we-are p {
     font-weight: bold;
     color: black;
 }
@@ -71,31 +80,17 @@ h1 {
     padding-bottom: 20px;
 }
 
-.family{
+.family {
     padding-top: 30px;
 }
+
 /* ------------Douglass------------------- */
 .douglass {
-height: 700px;
-text-align: center;
-overflow: hidden;
-position: relative;
-}
-
-/* .fixed-focus {
+    height: 700px;
+    text-align: center;
+    overflow: hidden;
     position: relative;
-    width: 100%;
-    height: auto;
-    z-index: -1; /* Place image behind text */
-    /* } */
-
-/* .text-overlay {
-        position: relative;
-        padding: 20px;
-        background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
-        /* color: #fff; Text color
-        z-index: 1; Place text in front of image */
-    /* } */  
+}
 
 .douglass img {
     width: 100%;
@@ -103,7 +98,7 @@ position: relative;
     object-fit: cover;
 }
 
-.douglass h1, 
+.douglass h1,
 .douglass p {
     position: absolute;
     color: white;
@@ -128,4 +123,62 @@ position: relative;
     width: 100%;
     min-height: 100%;
     object-fit: cover;
-    }  
+}
+
+
+/*-----------------Footer-------------------*/
+footer {
+    background-color: rgb(23, 23, 23);
+    color: #fafafa;
+    height: 300px;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 7.5px;
+    margin-left: 10px;
+    font-size: 20px;
+    border: solid 3px black;
+
+    text-align: center;
+    color: white;
+    background-color: rgb(23, 23, 23);
+}
+
+.social-links li a i:hover {
+    background-color: white;
+    color: rgb(23, 23, 23);
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.bottom-footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#back-to-top {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    letter-spacing: 0.15rem;
+}
+
+#design-by {
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+}
