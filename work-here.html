@@ -17,15 +17,15 @@
 <body>
     <header>
         <!-- put my nav in here -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark uppercase">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#my-nav-bar"
                 aria-controls="my-nav-bar" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="my-nav-bar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
@@ -59,8 +59,8 @@
                             <a class="dropdown-item" href="#">Mida Newton Events</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Work Here</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Work Here<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Gift Cards</a>
@@ -69,65 +69,59 @@
             </div>
         </nav>
 
+        <section class="container-fluid">
+            <h1>Work at MIDA</h1>
+            <p>We are looking for passionate individuals to join our team.</p>
+            <h2 class="uppercase">Please complete the form below</h2>
+            
+            <form>
+                <div class="mb-3">
+                    <!-- name / email /subject-->
+                <p>Name<span class="required"> (required)</span></p>
+                <label class="form-check-label" for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" class="form-control" required>
+                <label class="form-check-label" for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" class="form-control" required>
+                  <label for="Email" class="form-label">Email address<span class="required"> (required)</span></label>
+                  <input type="email" class="form-control" id="Email">
+                  <label for="Subject" class="form-label">Subject<span class="required"> (required)</span></label>
+                  <input type="text" class="form-control" id="Subject">
+                <!-- Dropdown -->
+                  <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Choose...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
 
 
-        <!-- LOGO -->
-        <div class="logo">
-            <a href="index.html" alt="Mida logo" class="logo">
-                <h1 id="logo">MIDA</h1>
-            </a>
-        </div>
 
-    </header>
-    <section>
-        <!-- <div class="container-fluid"> -->
-            <div class="row top-container">
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password <span class="required">(required)</span> </label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
 
+                <textarea id="projectsummary" name="projectsummary" rows="5" class="form-control" placeholder="Project description" required></textarea>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+
+              <div class="center-form">
+                <form action="">
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+                    <textarea id="projectsummary" name="projectsummary" rows="5" class="form-control" placeholder="Project description" required></textarea>
+                    <div class="form-row text-center">
+                        <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                    </div>
+                </form>
             </div>
-            <div class="row we-are">
-                <div>
-                    <h1 class="uppercase">Hi, we're mida.</h1>
-                    <p>We are an inspired Italian neighborhood restaurant.</p>
-                    <p>We believe in being generous and thoughtful in the way we prepare our food and engage with our
-                        community. And like you, we know the value of a good meal shared between friends.</p>
-                    <p>MIDA. It means “he gives me.” And every meal we create is meant to be a gift just for you.</p>
-                    <p>We’re looking forward to seeing you soon.</p>
-                    <p class="family">-The MIDA Family</p>
-                </div>
-            </div>
-            <div class="row douglass">
-                <h1>DOUGLASS WILLIAMS, CHEF/OWNER</h1>
-                <p>Recently named by Food & Wine as one of the top 10 Best New Chefs in America 2020, Douglass always
-                    finds a place to cook no matter where he goes. And he’s gone to a lot of places. From Paris and
-                    Thailand to New York and Boston, fifteen years of global experience informs every meal he makes for
-                    you. He’s not shy and you shouldn’t be either. Stop by and say hello, hugs and handshakes are
-                    mandatory.</p>
-            </div>
-        <!-- </div> -->
-<!-------------------- Food Pics----------------------->
-        <div class="food-pic-grid">
-            <div class="row no-gutters pic-container .text-center">
-                <div class="col-lg-4 col-sm-6">
-                    <img src="assets/images/Front+Door.jpg" alt="" class="food-pic">
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <img src="assets/images/Mida+Boston+Lasagna.jpg" alt="" class="food-pic">
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <img src="assets/images/antipasti.jpg" alt="" class="food-pic">
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <img src="assets/images/bucatini+-+Copy.jpg" alt="" class="food-pic">
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <img src="assets/images/Arancini.jpg" alt="" class="food-pic">
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <img src="assets/images/Gnocc.jpeg" alt="" class="food-pic">
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+
 <!--------------------Footer------------------------>
         <footer class="container-fluid">
                 <div class="col">
