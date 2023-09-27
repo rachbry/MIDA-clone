@@ -26,18 +26,27 @@ h1 {
     padding-right: 0;
 }
 
+/* .image-overlay {
+    background-color: rgba(0,0,0,.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+} */
 /* ----------------Top Section------------------ */
 
 .top-section {
-    /* position: relative;
-    text-align: center; */
+    position: relative;
+    text-align: center;
     color: black;
     overflow: hidden;
 }
 
 .hands {
-    width: 100%;
-    height: 850px;
+    width: 100vw;
+    height: 100vh;
     text-align: center;
     overflow: hidden;
     position: relative;
@@ -67,17 +76,16 @@ h1 {
 }
 
 .we-are {
-    padding: 100px 25%;
-    font-weight: bold;
+    padding: 100px 20%;
 }
 
 .we-are p {
-    font-weight: bold;
-    color: black;
+    color: rgb(40, 38, 38);
 }
 
 .we-are h1 {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    font-weight: bold;
 }
 
 .family {
@@ -86,8 +94,9 @@ h1 {
 
 /* ------------Douglass------------------- */
 .douglass {
+    /* width: 100%; */
     height: 700px;
-    text-align: center;
+    text-align: left;
     overflow: hidden;
     position: relative;
 }
@@ -98,24 +107,18 @@ h1 {
     object-fit: cover;
 }
 
-.douglass h1,
-.douglass p {
+.douglass-text {
     position: absolute;
     color: white;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 100%;
+    padding: 20% 10%;
     z-index: 1;
 }
 
 .douglass h1 {
-    font-size: 4rem;
-    margin-top: 100px;
-    padding-top: 50px;
+    font-size: 5rem;
 }
 
-.douglass p {
-    margin-top: 400px;
-}
 
 /* -------------Food Pics-------------------- */
 
@@ -182,3 +185,11 @@ footer {
     padding-bottom: 50px;
     text-decoration: underline;
 }
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .douglass h1 {
+        font-size: 3rem;
+    }
+}
+
