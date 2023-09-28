@@ -73,48 +73,72 @@
             <h1>Work at MIDA</h1>
             <p>We are looking for passionate individuals to join our team.</p>
             <h2 class="uppercase">Please complete the form below</h2>
-            
+
             <form>
                 <div class="mb-3">
                     <!-- name / email /subject-->
-                <p>Name<span class="required"> (required)</span></p>
-                <label class="form-check-label" for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name" class="form-control" required>
-                <label class="form-check-label" for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name" class="form-control" required>
-                  <label for="Email" class="form-label">Email address<span class="required"> (required)</span></label>
-                  <input type="email" class="form-control" id="Email">
-                  <label for="Subject" class="form-label">Subject<span class="required"> (required)</span></label>
-                  <input type="text" class="form-control" id="Subject">
-                <!-- Dropdown -->
-                  <label class="input-group-text" for="inputGroupSelect01">Options</label>
-                  <select class="form-select" id="inputGroupSelect01">
-                    <option selected>Choose...</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
+                    <p>Name<span class="required"> (required)</span></p>
+                    <label class="form-check-label" for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" class="form-control" required>
+                    <label class="form-check-label" for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" class="form-control" required>
+                    <label for="Email" class="form-label">Email address<span class="required"> (required)</span></label>
+                    <input type="email" class="form-control" id="Email">
+                    <label for="Subject" class="form-label">Subject<span class="required"> (required)</span></label>
+                    <input type="text" class="form-control" id="Subject">
+                    <!-- Dropdown -->
+                    <label class="area-of-employment" for="area-of-employment">Area of employment
+                        <span class="required">(required)</span></label><br>
+                    <select class="form-control" id="area-of-employment">
+                        <option value="1">Front of the house</option>
+                        <option value="2">Back of the house</option>
+                    </select>
+                    <!-- Checkbox -->
+                    <label class="location" for="location">Which location are you applying for?
+                        <span class="required">(required)</span></label><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="south-end">
+                        <label class="form-check-label" for="south-end">
+                            South End Boston, MA
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="newton">
+                        <label class="form-check-label" for="newton">
+                            Newton, MA
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="east-boston">
+                        <label class="form-check-label" for="east-boston">
+                            East Boston, MA
+                        </label>
+                    </div>
 
 
 
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password <span class="required">(required)</span> </label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password <span
+                                class="required">(required)</span> </label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
 
-                <textarea id="projectsummary" name="projectsummary" rows="5" class="form-control" placeholder="Project description" required></textarea>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+                    <textarea id="projectsummary" name="projectsummary" rows="5" class="form-control"
+                        placeholder="Project description" required></textarea>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
 
-              <div class="center-form">
+            <div class="center-form">
                 <form action="">
                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
-                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
-                    <textarea id="projectsummary" name="projectsummary" rows="5" class="form-control" placeholder="Project description" required></textarea>
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                        required>
+                    <textarea id="projectsummary" name="projectsummary" rows="5" class="form-control"
+                        placeholder="Project description" required></textarea>
                     <div class="form-row text-center">
                         <button type="submit" class="btn btn-secondary">Send Project Request</button>
                     </div>
@@ -122,45 +146,46 @@
             </div>
         </section>
 
-<!--------------------Footer------------------------>
+        <!--------------------Footer------------------------>
         <footer class="container-fluid">
-                <div class="col">
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a href="https://www.facebook.com/mida.boston" target="_blank">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.instagram.com/midaboston/" target="_blank">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://twitter.com/midarestaurant" target="_blank">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </a>
-                </li>
-            </ul>
-            <div class="bottom-footer">
-                <a href="index.html" id="back-to-top" class="uppercase d-lg-none">Back to Top</a>
-                <br>
-                <a href="https://github.com/rachbry" target="_blank" id="design-by">Website Design and Build by Rachel</a>
-            </div>
-            
-        </div>
-    </footer>
+            <div class="col">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/mida.boston" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/midaboston/" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/midarestaurant" target="_blank">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="bottom-footer">
+                    <a href="index.html" id="back-to-top" class="uppercase d-lg-none">Back to Top</a>
+                    <br>
+                    <a href="https://github.com/rachbry" target="_blank" id="design-by">Website Design and Build by
+                        Rachel</a>
+                </div>
 
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-        crossorigin="anonymous"></script>
+            </div>
+        </footer>
+
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
